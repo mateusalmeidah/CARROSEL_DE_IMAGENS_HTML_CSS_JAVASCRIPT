@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background-color: #e4e4e4;
+    background-image: url("https://drive.google.com/uc?export=download&id=1E8XVjGJRrSElZb6ar733wqA8mR9zgDwM");
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-position-y: 220px;
+    
+}
+
+.header {
+    text-align: left;
+    margin-top: 10px;
+    padding-left: 50px;
+
+}
+
+p {
+    margin-top: 30px;
+
+}
+
+section {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 100px;
+    
+}
+
+section ul {
+    display: flex;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.container-slide{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    height: 50vh;
+    background-color: black;
+    margin: 10vh auto;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px black;
+    border: 7px solid black;
+    margin-top: 35px;
+}
+
+.container-items {
+    position: absolute;
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.item {
+    width: 50vw;
+    height: 50vh;
+    transition: all 1s;
+}
+.item:first-child{
+    margin-left: -100%;
+}
+
+.item img {
+    width: 50vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.action-button {
+    font: bold 30px sans-serif;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 50px;
+    color: #00000000;
+    user-select: none;
+    z-index: 1;
+}
+.action-button:hover {
+    color: white;
+    background-color: #00000055;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+
+.botoes {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: hsl(0, 3%, 33%);
+    color: white;
+    border-radius: 30px;
+    margin-left: 40px;
+    width: 40px;
+    
+
+}
+
+.botoes:hover,
+.botao:hover {
+    opacity: .9;
+    background-color: rgb(32, 30, 30);
+    border-radius: 30px;
+    margin-top: 30px;
+    
+}
+
+.formulario {
+    width: 300px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 40px;
+
+  
+}
+
+.formulario form > input {
+    padding: 10px;
+    width: 100%;
+    color:hsl(0, 3%, 33%)
+    
+}
+
+.botao {
+    padding: 8px 12px;
+    background-color: hsl(0, 3%, 33%);
+    color: white;
+    margin-left: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+.resultado {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: hsl(0, 3%, 33%);
+    position: fixed;
+    bottom: 0;
+    padding: 8px;
+}
+
+.ajuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 10px;
+    margin-right: 20px;
+    
+
+}
+
+
+#heuristica{
+    margin-left:590px;
+    margin-top: 100px;
+    background-color: rgba(0, 0, 0, 0.048);
+    border-radius: 30px;
+    
+    
+}
